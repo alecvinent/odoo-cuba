@@ -11,4 +11,4 @@ Repositorio central de la localización cubana.
 - [Argentina](http://bazaar.launchpad.net/~openerp-l10n-ar-localization/openerp-l10n-ar-localization/trunk/files)
 - [Venezuela](https://github.com/odoo-venezuela/odoo-venezuela)
 - [Mexico](http://bazaar.launchpad.net/~openerp-mexico-maintainer/openerp-mexico-localization/trunk/files)
-- *[agrégalo](https://github.com/odoo-ccuba/odoo-cuba/edit/master/README.md)* que piensas que falta!
+- *[agrégalo](https://github.com/odoo-cuba/odoo-cuba/edit/master/README.md)* que piensas que falta!
