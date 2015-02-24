@@ -2,6 +2,9 @@
 
 Repositorio central de la localización cubana.
 
+#### Legislación vigente
+
+- [Ley 113 Sistema Tributario](http://www.mfp.cu/legislaciones/2012/L-113-2012.pdf)
 
 #### Localizaciones Modelos
 
