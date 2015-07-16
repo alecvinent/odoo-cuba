@@ -4,6 +4,7 @@ Repositorio central de la localización cubana.
 
 #### Legislación vigente
 
+- [Resolución No. 472/2012](http://www.torontoforumoncuba.com/uploads/5/1/8/5/5185218/2013-01-30_gaceta_oficial_ordinaria_no._003.pdf)
 - [Ley 113 Sistema Tributario](http://www.mfp.cu/legislaciones/2012/L-113-2012.pdf)
 - [Resolución No.294-2005] (http://www.actaf.co.cu/index.php?option=com_mtree&task=att_download&link_id=374&cf_id=24)
 
