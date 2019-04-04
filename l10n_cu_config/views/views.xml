@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!--acciones-->
+        <record id="res_partner_tipo_action" model="ir.actions.act_window">
+            <field name="name">Tipos de Entidades</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.tipo</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <!--<field name="view_id" ref="res_partner_tipo_tree" />-->
+        </record>
+
+        <record id="res_partner_organismo_action" model="ir.actions.act_window">
+            <field name="name">Organismos</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.organismo</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <!--<field name="view_id" ref="res_partner_organismo_tree" />-->
+        </record>
+
+        <record id="res_partner_subordinacion_action" model="ir.actions.act_window">
+            <field name="name">Subordinaciones</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner.subordinacion</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <!--<field name="view_id" ref="res_partner_subordinacion_tree" />-->
+        </record>
+
+        <!--<record id="res_country_state_municipio_action" model="ir.actions.act_window">-->
+            <!--<field name="name">Municipios</field>-->
+            <!--<field name="type">ir.actions.act_window</field>-->
+            <!--<field name="res_model">res.country.state.municipio</field>-->
+            <!--<field name="view_type">form</field>-->
+            <!--<field name="view_mode">tree,form</field>-->
+        <!--</record>-->
+
+
+        <menuitem name="Cuba - Configuración" id="d_1" sequence="14" parent="base.menu_administration"
+                  groups="base.group_no_one"/>
+        <menuitem name="Tipos de Entidades" id="d_1_1" parent="d_1" action="res_partner_tipo_action" sequence="1"/>
+        <menuitem name="Organismos" id="d_1_2" parent="d_1" action="res_partner_organismo_action" sequence="2"/>
+        <menuitem name="Subordinaciones" id="d_1_3" parent="d_1" action="res_partner_subordinacion_action"
+                  sequence="3"/>
+        <menuitem name="Divisiones territoriales" id="d_1_5" parent="d_1" action="" sequence="5"/>
+        <menuitem name="Países" id="d_1_5_1" parent="d_1_5" action="base.action_country" sequence="1"/>
+        <menuitem name="Provincias" id="d_1_5_2" parent="d_1_5" action="base.action_country_state" sequence="2"/>
+        <menuitem name="Municipios" id="d_1_5_3" parent="d_1_5" action="res_country_state_municipio_action"
+                  sequence="3"/>
+    </data>
+</openerp>

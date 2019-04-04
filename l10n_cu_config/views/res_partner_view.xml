@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Open partner address -->
+        <record id="view_partner_address_form" model="ir.ui.view">
+            <field name="name">res.partner.form.address</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_address_form"/>
+            <field name="arch" type="xml">
+                <field name="state_id" position="before">
+                    <field name="id_municipio" placeholder="Municipio" class="o_address_municipio"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="priority" eval="1"/>
+            <field name="arch" type="xml">
+                <field name="state_id" position="before">
+                    <field name="id_municipio" placeholder="Municipio" class="o_address_municipio"/>
+                </field>
+                <field name="lang" position="before">
+                    <field name="id_subordinacion" />
+                    <field name="id_tipo" />
+                </field>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>

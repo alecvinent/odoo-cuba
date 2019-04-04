@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- MODEL :res.country.state.municipio -->
+
+        <!-- SEARCH / GROUP -->
+
+        <record id="res_country_state_municipio_search" model="ir.ui.view">
+            <field name="name">Municipios</field>
+            <field name="model">res.country.state.municipio</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- TREE -->
+
+        <record id="res_country_state_municipio_tree" model="ir.ui.view">
+            <field name="name">Municipios</field>
+            <field name="model">res.country.state.municipio</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="country_id"/>
+                    <field name="state_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- FORM -->
+
+        <record id="res_country_state_municipio_form" model="ir.ui.view">
+            <field name="name">Municipios</field>
+            <field name="model">res.country.state.municipio</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                    </header>
+                    <sheet>
+                        <group>
+                            <field name="code"/>
+                            <field name="name"/>
+                            <field name="country_id"/>
+                            <field name="state_id" domain="[('country_id','=',country_id)]"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record id="res_country_state_municipio_action" model="ir.actions.act_window">
+            <field name="name">Municipios</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.country.state.municipio</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="res_country_state_municipio_tree"/>
+        </record>
+    </data>
+</openerp>

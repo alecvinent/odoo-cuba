@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<openerp>
+		<data noupdate="1">
+			<!-- Data to load -->
+			<record model="res.partner.subordinacion" id="subordinacion_0">
+				<field name="name">Desconocida</field>
+			</record>
+			<record model="res.partner.subordinacion" id="subordinacion_1">
+				<field name="name">Nacional</field>
+			</record>
+			<record model="res.partner.subordinacion" id="subordinacion_2">
+				<field name="name">Provincial</field>
+			</record>
+			<record model="res.partner.subordinacion" id="subordinacion_3">
+				<field name="name">Municipal</field>
+			</record>
+			<record model="res.partner.subordinacion" id="subordinacion_4">
+				<field name="name">Sin subordinación</field>
+			</record>
+		</data>
+	</openerp>

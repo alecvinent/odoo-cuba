@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+		<!-- MODEL :res.partner.organismo -->
+
+		<!-- SEARCH / GROUP -->
+
+		<record id="res_partner_organismo_search" model="ir.ui.view">
+			<field name="name">Organismos</field>
+			<field name="model">res.partner.organismo</field>
+			<field name="type">search</field>
+			<field name="arch" type="xml">
+				<search>
+					<field name="name" />
+				</search>
+			</field>
+		</record>
+
+		<!-- TREE -->
+
+		<record id="res_partner_organismo_tree" model="ir.ui.view">
+			<field name="name">Organismos</field>
+			<field name="model">res.partner.organismo</field>
+			<field name="type">tree</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="name" />
+				</tree>
+			</field>
+		</record>
+
+		<!-- FORM -->
+
+		<record id="res_partner_organismo_form" model="ir.ui.view">
+			<field name="name">Organismos</field>
+			<field name="model">res.partner.organismo</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form>
+					<header>
+					</header>
+					<sheet>
+						<group>
+							<field name="name" />
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- ACTION -->
+		<record id="res_partner_organismo_action" model="ir.actions.act_window">
+			<field name="name">Organismos</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">res.partner.organismo</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="res_partner_organismo_tree" />
+		</record>
+	</data>
+</openerp>

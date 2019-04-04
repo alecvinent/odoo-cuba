@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data noupdate="1">
+    <record model="res.partner.organismo" id="organismo_7">
+      <field name="name">MINISTERIO DE LA INDUSTRIA ALIMENTARIA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINAL</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_8">
+      <field name="name">INSTITUTO NACIONAL DE RECURSOS HIDRÁULICOS</field>
+      <field name="activo">1</field>
+      <field name="siglas">INRH</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_9">
+      <field name="name">MINISTERIO DE LA CONSTRUCCIÓN</field>
+      <field name="activo">1</field>
+      <field name="siglas">MICONS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_10">
+      <field name="name">MINISTERIO DE LA AGRICULTURA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINAG</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_11">
+      <field name="name">MINISTERIO DEL TRANSPORTE</field>
+      <field name="activo">1</field>
+      <field name="siglas">MITRANS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_14">
+      <field name="name">MINISTERIO DE COMUNICACIONES</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINCOM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_15">
+      <field name="name">MINISTERIO DEL  COMERCIO INTERIOR</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINCIN</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_17">
+      <field name="name">MINISTERIO DE CIENCIA,TECNOLOGÍA Y MEDIO AMBIENTE</field>
+      <field name="activo">1</field>
+      <field name="siglas">CITMA</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_18">
+      <field name="name">MINISTERIO DE EDUCACIÓN</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINED</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_19">
+      <field name="name">MINISTERIO DE EDUCACIÓN SUPERIOR</field>
+      <field name="activo">1</field>
+      <field name="siglas">MES</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_20">
+      <field name="name">INSTITUTO CUBANO DE RADIO Y TELEVISIÓN</field>
+      <field name="activo">1</field>
+      <field name="siglas">ICRT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_21">
+      <field name="name">MINISTERIO DE  CULTURA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINCULT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_22">
+      <field name="name">MINISTERIO DE SALUD PUBLICA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINSAP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_23">
+      <field name="name">INSTITUTO NACIONAL DE DEPORTES,EDUCACIÓN FÍSICA Y RECREACIÓN</field>
+      <field name="activo">1</field>
+      <field name="siglas">INDER</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_25">
+      <field name="name">BANCO NACIONAL DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">BNC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_26">
+      <field name="name">BANCO POPULAR DE AHORRO</field>
+      <field name="activo">1</field>
+      <field name="siglas">BPA</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_27">
+      <field name="name">MINISTERIO DE FINANZAS Y PRECIOS</field>
+      <field name="activo">1</field>
+      <field name="siglas">MFP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_29">
+      <field name="name">MINISTERIO DEL TURISMO</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINTUR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_30">
+      <field name="name">BANCO CENTRAL DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">BCC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_31">
+      <field name="name">BANCO DE CREDITO Y COMERCIO</field>
+      <field name="activo">1</field>
+      <field name="siglas">BANDEC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_32">
+      <field name="name">BANCO EXTERIOR DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">BEC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_33">
+      <field name="name">MINISTERIO DE ECONOMÍA Y PLANIFICACIÓN</field>
+      <field name="activo">1</field>
+      <field name="siglas">MEP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_34">
+      <field name="name">MINISTERIO DE TRABAJO Y SEGURIDAD SOCIAL</field>
+      <field name="activo">1</field>
+      <field name="siglas">MTSS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_35">
+      <field name="name">MINISTERIO DE JUSTICIA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINJUS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_36">
+      <field name="name">MINISTERIO DE RELACIONES EXTERIORES</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINREX</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_37">
+      <field name="name">TRIBUNAL SUPREMO POPULAR</field>
+      <field name="activo">1</field>
+      <field name="siglas">TSP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_38">
+      <field name="name">FISCALÍA GENERAL DE LA REPÚBLICA</field>
+      <field name="activo">1</field>
+      <field name="siglas">FGR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_39">
+      <field name="name">MINISTERIO DE LAS FUERZAS ARMADAS REVOLUCIONARIAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINFAR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_40">
+      <field name="name">MINISTERIO DEL INTERIOR</field>
+      <field name="activo">1</field>
+      <field name="siglas">MININT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_41">
+      <field name="name">CONSEJO DE ESTADO</field>
+      <field name="activo">1</field>
+      <field name="siglas">CE</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_42">
+      <field name="name">PODER POPULAR NACIONAL - ASAMBLEA NACIONAL</field>
+      <field name="activo">1</field>
+      <field name="siglas">ANPP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_43">
+      <field name="name">COMITE EJECUTIVO DEL CONSEJO DE MINISTROS</field>
+      <field name="activo">1</field>
+      <field name="siglas">CECM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_44">
+      <field name="name">ADUANA GENERAL DE LA REPUBLICA NIVEL CENTRAL</field>
+      <field name="activo">1</field>
+      <field name="siglas">AGR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_45">
+      <field name="name">PODER POPULAR DE PINAR DEL RIO</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPPR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_47">
+      <field name="name">PODER POPULAR DE LA HABANA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPLH</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_48">
+      <field name="name">PODER POPULAR DE MATANZAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPMT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_49">
+      <field name="name">PODER POPULAR DE VILLA CLARA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPVC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_50">
+      <field name="name">PODER POPULAR DE CIENFUEGOS</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPCF</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_51">
+      <field name="name">PODER POPULAR DE SANCTI SPÍRITUS</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPSS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_52">
+      <field name="name">PODER POPULAR DE CIEGO DE ÁVILA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPCA</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_53">
+      <field name="name">PODER POPULAR DE CAMAGÜEY</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPCM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_54">
+      <field name="name">PODER POPULAR DE LAS TUNAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPLT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_55">
+      <field name="name">PODER POPULAR DE HOLGUÍN</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPHG</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_56">
+      <field name="name">PODER POPULAR DE GRANMA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPGR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_57">
+      <field name="name">PODER POPULAR DE SANTIAGO DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPSC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_58">
+      <field name="name">PODER POPULAR DE GUANTÁNAMO</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPGT</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_59">
+      <field name="name">PODER POPULAR DE ISLA DE LA JUVENTUD</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPIJ</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_60">
+      <field name="name">PARTIDO COMUNISTA DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PCC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_61">
+      <field name="name">UNIÓN DE JÓVENES COMUNISTAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">UJC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_62">
+      <field name="name">ORGANIZACIÓN DE PIONEROS JOSÉ MARTI</field>
+      <field name="activo">1</field>
+      <field name="siglas">OPJM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_63">
+      <field name="name">CENTRAL DE TRABAJADORES DE CUBA</field>
+      <field name="activo">1</field>
+      <field name="siglas">CTC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_64">
+      <field name="name">FEDERACION DE MUJERES CUBANAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">FMC</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_65">
+      <field name="name">COMITE DE DEFENSA DE LA REVOLUCION</field>
+      <field name="activo">1</field>
+      <field name="siglas">CDR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_66">
+      <field name="name">ASOCIACIoN NACIONAL DE AGRICULTORES PEQUEÃ‘OS</field>
+      <field name="activo">1</field>
+      <field name="siglas">ANAP</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_67">
+      <field name="name">NO SE SUBORDINA A UN ORGANISMO</field>
+      <field name="activo">1</field>
+      <field name="siglas">NO SUBORDINADO</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_68">
+      <field name="name">ORGANISMO DESCONOCIDO</field>
+      <field name="activo">1</field>
+      <field name="siglas">DESCONOCIDO</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_69">
+      <field name="name">ACLIFIN</field>
+      <field name="activo">1</field>
+      <field name="siglas">ACLIFIN</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_71">
+      <field name="name">MINISTERIO DE ENERGÍA Y MINAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINEM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_72">
+      <field name="name">MINISTERIO DE INDUSTRIAS</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINDUS</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_74">
+      <field name="name">MINISTERIO DEL COMERCIO EXTERIOR Y LA INVERSIÓN EXTRANJERA</field>
+      <field name="activo">1</field>
+      <field name="siglas">MINCEX</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_78">
+      <field name="name">CONTRALORIA GENERAL DE LA REPUBLICA</field>
+      <field name="activo">1</field>
+      <field name="siglas">CGR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_87">
+      <field name="name">CONSEJO DE MINISTROS</field>
+      <field name="activo">1</field>
+      <field name="siglas">CM</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_88">
+      <field name="name">OFICINA DEL HISTORIADOR DE LA CIUDAD DE LA HABANA</field>
+      <field name="activo">1</field>
+      <field name="siglas">OHCH</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_89">
+      <field name="name">PODER POPULAR DE ARTEMISA</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPAR</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_90">
+      <field name="name">PODER POPULAR DE MAYABEQUE</field>
+      <field name="activo">1</field>
+      <field name="siglas">PPMY</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_91">
+      <field name="name">GRUPO AZUCARERO</field>
+      <field name="activo">1</field>
+      <field name="siglas">AZCUBA</field>
+    </record>
+    <record model="res.partner.organismo" id="organismo_92">
+      <field name="name">GRUPO DE LAS INDUSTRIAS BIOTECNOLÓGICA Y FARMACÉUTICA</field>
+      <field name="activo">1</field>
+      <field name="siglas">BIOCUBAFARMA</field>
+    </record>
+  </data>
+</openerp>

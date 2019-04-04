@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- MODEL :res.company.dependencia -->
+
+
+        <!-- TREE -->
+
+        <record id="res_company_dependencia_tree" model="ir.ui.view">
+            <field name="name">res.company.dependencia.tree</field>
+            <field name="model">res.company.dependencia</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- FORM -->
+
+        <record id="res_company_dependencia_view_form" model="ir.ui.view">
+            <field name="name">res.company.dependencia.form</field>
+            <field name="model">res.company.dependencia</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="company_id"/>
+                            <field name="code"/>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record id="res_company_dependencia_action" model="ir.actions.act_window">
+            <field name="name">Dependencias</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.company.dependencia</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="res_company_dependencia_tree"/>
+        </record>
+    </data>
+</openerp>

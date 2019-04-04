@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="ir_cron_actualizar_registros" model="ir.cron">
+            <field name="name">Actualizar registros de partners.</field>
+            <field name="interval_number">2</field>
+            <field name="interval_type">hours</field>
+            <field name="numbercall">-1</field>
+            <field name="doall">1</field>
+            <field name="model">res.company</field>
+            <field name="function">cron</field>
+        </record>
+   </data>
+</odoo>

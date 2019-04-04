@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<openerp>
+		<data noupdate="1">
+			<!-- Data to load -->
+			<record model="res.partner.tipo" id="entidad_tipo_1">
+				<field name="name">SIN CLASIFICAR</field>
+				<field  name="codigo">SC</field>
+			</record>
+			<record model="res.partner.tipo" id="entidad_tipo_2">
+				<field name="name">UNIDAD PRESUPUESTADA</field>
+				<field  name="codigo">UP</field>
+			</record>
+			<record model="res.partner.tipo" id="entidad_tipo_3">
+				<field name="name">EMPRESA</field>
+				<field  name="codigo">EMP</field>
+			</record>
+			<record model="res.partner.tipo" id="entidad_tipo_4">
+				<field name="name">EMPRESA MIXTA</field>
+				<field  name="codigo">EM</field>
+			</record>
+			<record model="res.partner.tipo" id="entidad_tipo_5">
+				<field name="name">PERSONA NATURAL</field>
+				<field  name="codigo">PN</field>
+			</record>
+			<record model="res.partner.tipo" id="entidad_tipo_6">
+				<field name="name">EMPRESA EXTRANJERA</field>
+				<field  name="codigo">EE</field>
+			</record>
+		</data>
+	</openerp>

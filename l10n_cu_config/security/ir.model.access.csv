@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_country_state_municipio,access_res_country_state_municipio,model_res_country_state_municipio,,1,0,0,0
+access_res_partner_organismo,access_res_partner_organismo,model_res_partner_organismo,,1,0,0,0
+access_res_partner_tipo,access_res_partner_tipo,model_res_partner_tipo,,1,0,0,0
+access_res_partner_subordinacion,access_res_partner_subordinacion,model_res_partner_subordinacion,,1,0,0,0
