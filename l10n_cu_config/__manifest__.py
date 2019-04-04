@@ -12,7 +12,7 @@
     'website': "http://www.twitter.com/alecko",
     'category': 'Localization',
     'version': '10.0.1.2',
-    'depends': ['base', 'base_technical_features'],
+    'depends': ['base'],
 
     # always loaded
     'data': [
