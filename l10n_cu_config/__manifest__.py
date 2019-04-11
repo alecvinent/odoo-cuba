@@ -12,7 +12,7 @@
     'website': "http://www.twitter.com/alecko",
     'category': 'Localization',
     'version': '10.0.1.2',
-    'depends': ['base'],
+    'depends': [],
 
     # always loaded
     'data': [
@@ -28,6 +28,7 @@
         'data/cron.xml',
 
         'views/res_country_state_municipio_view.xml',
+        'views/res_country_state_view.xml',
         'views/res_partner_view.xml',
 
         'views/views.xml',
